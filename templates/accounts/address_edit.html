@@ -1,0 +1,1 @@
+{% extends 'base.html' %}{% block title %}Edit address{% endblock %}{% block content %}<div class="container narrow py-5"><div class="form-panel"><h1>Edit {{ address.label }}</h1><form method="post">{% csrf_token %}{{ form.as_p }}<button class="btn btn-food">Save changes</button></form></div></div>{% endblock %}

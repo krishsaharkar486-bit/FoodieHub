@@ -1,0 +1,1 @@
+{% extends 'base.html' %}{% block title %}Restaurant profile{% endblock %}{% block content %}<div class="container narrow py-5"><div class="form-panel"><h1>Restaurant profile</h1><form method="post" enctype="multipart/form-data">{% csrf_token %}{{ form.as_p }}<button class="btn btn-food">Save restaurant</button></form></div></div>{% endblock %}
