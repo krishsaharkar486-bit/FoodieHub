@@ -1,3 +1,7 @@
 Django>=5.2,<5.3
 Pillow>=10.0,<12
 razorpay>=1.4,<2
+gunicorn
+whitenoise
+dj-database-url
+psycopg[binary]
